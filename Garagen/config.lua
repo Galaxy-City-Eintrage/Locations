@@ -2011,34 +2011,34 @@ Config.JobGarages = {
         }
     },
     {
-        job = 'mechanic',
+       job = 'mechanic',
         name = 'mechanic-car',
         grade = 6,
         price = 0, -- Put a price or 0
         coords = {
-            menuCoords = vec3(-283.4, -919.16, 31.12),
-            spawnCoords = vec4(-289.04, -909.6, 31.12, 337.2),
+            menuCoords = vec3(-635.44, -2339.12, 13.84),
+            spawnCoords = vec4(-611.12, -2342.56, 13.84, 52.36),
         },
         vehicles = {
-            --`slamtruck`,
-            --`flatbed`,
+            `slamtruck`,
+            `flatbed`,
         },
         liveries = {
-            --[`slamtruck`] = 1
+            [`slamtruck`] = 1
         },
         tuning = {},
         extras = {},
         vehicleCamera = {
-            vehicleCoords = vec4(-197.353851, -1304.004395, 30.981689, 291.968506),
+            vehicleCoords = vec4(-611.12, -2342.56, 13.84, 52.36),
             camera = {
-                coords = vec3(-194.782410, -1299.046143, 31.285034),
+                coords = vec3(-618.16, 2343.84,13.84),
                 rotation = vec3(3.0, 2.0, 170.0),
                 ped = vec4(-198.184616, -1302.672485, 31.285034, 325.55)
             }
         },
         cinematicCams = {
-            vec3(280.496704, -607.186829, 43.079834),
-            vec3(284.901093, -608.241760, 43.298950)
+            vec3(-618.16, -2343.84, 18.76),
+            vec3(-622.16, -2343.84, 18.76)
         }
     },
     {
